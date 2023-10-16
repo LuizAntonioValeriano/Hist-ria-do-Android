@@ -1,0 +1,463 @@
+header{
+    background-image: linear-gradient(to left,#9C3E00,#502000);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 180px;
+    box-shadow: 2px 2px 20px white;
+    z-index: 1;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragrafo{
+    text-align: center;
+    color: white;
+}
+
+.opções{
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+
+body{
+    background-color: #004C50;
+}
+
+.titulo2{
+    text-align: center;
+    color: #00939C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragrafo2{
+    text-indent: 10px;
+}
+
+.geral{
+    background-color: #c2c0a6;
+    position: absolute;
+    top: 1250px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    padding: 13px;
+    width: 700px;
+}
+
+.titulo3{
+    color: #10ABB4;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to left,#004C50,#00939C);
+    border-radius: 40px;
+}
+
+.paragrafo3{
+    text-indent: 10px;
+}
+
+.danmorril{
+    text-decoration: none;
+    color: #10ABB4;
+}
+
+.danmorril:hover{
+    background-color: pink ;
+}
+
+.irin{
+    text-decoration: none;
+    color: #10ABB4;
+}
+
+.irin:hover{
+    background-color: pink;
+}
+
+strong{
+    text-shadow: 2px 2px 15px rgb(100, 98, 98);
+    color: #0c7b81;
+}
+
+.img1{
+    width: 500px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.paragrafo4{
+    text-indent: 10px;
+}
+
+.titulo4{
+    color: #10ABB4;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to left,#004C50,#00939C);
+    border-radius: 40px;   
+}
+
+.paragrafo5{
+    text-indent: 10px;
+}
+
+.irina{
+    text-decoration: none;
+    color: #10ABB4;
+}
+
+.irina:hover{
+    background-color: pink;
+}
+
+.img2{
+    width: 600px;
+    margin-left: 50px;
+}
+
+.img3{
+    margin-left: 30%;
+}
+
+.paragrafo6{
+    text-indent: 10px;
+}
+
+.video1{
+    background-color: #00939C;
+}
+
+iframe{
+    background-color: #00939C;
+    margin-left: 40px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.lista1, .lista2{
+    display: inline-block;
+}
+.lista2{
+    margin-left: 150px   
+}
+
+#div2{
+    background-color: #04a3ab;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.paragrafo7{
+    background-color: #025f64;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    text-indent: 10px;
+}
+
+.paragrafo8{
+    padding: 10px;
+    text-indent: 10px;
+}
+
+.paragrafo9{
+    text-indent: 10px;    
+}
+
+.paragrafo10{
+    color: white;
+}
+
+.link2{
+    text-decoration: none;
+    color: #034447;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    .geral{
+      width: 600px;
+      top: 170%;
+    }
+
+    .img1{
+      width: 400px;
+    margin-left: 17%;
+    }
+
+    .img2{
+      width: 580px;
+      margin: 10px;
+    }
+
+    .img3{
+      width: 200px;
+    }
+
+    iframe{
+      width: 500px;
+      margin-left: 4%;
+    }
+
+    header{
+      height: 170px;
+    }
+
+    .titulo2{
+    margin-left: 16px;
+    }
+
+    .paragrafo2{
+    margin: 10px;
+    text-align: justify;
+    }
+
+    .paragrafo3{
+    margin: 10px;
+    text-align: justify;
+    }
+
+    .paragrafo4{
+    margin: 10px;
+    text-align: justify;
+    }
+
+    .titulo4{
+    margin-left: 1%;
+    }
+
+    .paragrafo5{
+    margin: 10px;
+    text-align: justify;
+    }
+
+    .paragrafo9{
+    margin: 10px;
+    text-align: justify;
+    }
+
+    .paragrafo6{
+    margin: 10px;
+    text-align: justify;
+    }
+
+    #div2{
+    width: 550px;
+    margin-left: 5%;
+    }
+
+  
+
+    .paragrafo10{
+    margin: 10px;
+    text-align: justify;
+}
+   
+  }
+
+
+
+@media(max-width:600px){
+  .geral{
+    width: 400px;
+    top: 200%;
+  }
+
+  .img1{
+    width: 300px;
+  margin-left: 13%;
+  }
+
+  .img2{
+    width: 400px;
+    margin: 2px;
+  }
+
+  .img3{
+    width: 200px;
+  }
+
+  iframe{
+    width: 300px;
+    margin-left: 4%;
+  }
+
+  header{
+    height: 170px;
+  }
+
+  .titulo2{
+  margin-left: 16px;
+  }
+
+  .paragrafo2{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo3{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo4{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .titulo4{
+  margin-left: 1%;
+  }
+
+  .paragrafo5{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo9{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo6{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  #div2{
+  width: 360px;
+  margin-left: 4%;
+  }
+
+  .lista2{
+    margin: 10%;
+    padding: 5px;
+  }
+
+
+
+  .paragrafo10{
+  margin: 10px;
+  text-align: justify;
+}
+
+}
+
+
+@media(max-width:400px){
+  .geral{
+    width: 300px;
+    top: 1510px;
+  }
+
+  .titulo{
+    font-size: 25px;
+  }
+
+  .opções{
+    margin-left: 4%;
+    font-size: 15px;
+  }
+
+  .paragrafo{
+    font-size: 15px;
+  }
+
+  .img1{
+    width: 250px;
+  margin-left: 13%;
+  }
+
+  .img2{
+    width: 300px;
+    margin: 2px;
+  }
+
+  .img3{
+    width: 200px;
+    margin-left: 20%;
+  }
+
+  iframe{
+    width: 230px;
+    margin-left: 2%;
+    height: 150px;
+  }
+
+  header{
+    height: 170px;
+  }
+
+  .titulo2{
+  margin-left: 16px;
+  }
+
+  .paragrafo2{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo3{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo4{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .titulo4{
+  margin-left: 1%;
+  }
+
+  .paragrafo5{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo9{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  .paragrafo6{
+  margin: 10px;
+  text-align: justify;
+  }
+
+  #div2{
+  width: 280px;
+  margin-left: 4%;
+  }
+
+  .lista2{
+    margin: 13%;
+    padding: 5px;
+  }
+
+
+
+  .paragrafo10{
+  margin: 10px;
+  text-align: justify;
+}
+
+}
